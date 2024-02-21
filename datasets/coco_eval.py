@@ -12,7 +12,7 @@ import copy
 import numpy as np
 import torch
 
-from fisheye_pycocotools.cocoeval import COCOeval
+from .fisheye_pycocotools.cocoeval import COCOeval
 from pycocotools.coco import COCO
 import pycocotools.mask as mask_util
 
